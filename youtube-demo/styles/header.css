@@ -10,31 +10,93 @@
 .left-section {
   display: flex;
   align-items: center;
-  justify-content: center;
-  width: 150px;
   height: 100%;
-  background-color: lightblue;
 }
+.header-menu {
+  height: 24px;
+  margin-left: 12px;
+}
+.header-logo {
+  margin-left: 20px;
+  margin-right: 20px;
+  height: 24px;
+}
+
 .middle-section {
   display: flex;
   align-items: center;
   justify-content: center;
   flex: 1;
   height: 100%;
-  background-color: lightgreen;
-  margin-left: 70px;
+  margin-left: 50px;
   margin-right: 30px;
-  min-width: 80px;
   max-width: 500px;
 }
-.middle-section > input {
-  width: 50%;
+.search-box {
+  flex: 1;
+  height: 36px;
+  padding-left: 10px;
+  font-size: 16px;
+  width: 0px;
+  min-width: 60px;
+  border-width: 1px;
+  border-color: rgb(210, 210, 210);
+  border-top-left-radius: 2px;
+  border-bottom-left-radius: 2px;
+  border-style: solid;
+  box-shadow: inset 1px 2px 3px rgba(0, 0, 0, 0.05);
+}
+.search-box::placeholder {
+  font-family: Roboto, Arial;
+}
+.search-button {
+  margin-left: -1px;
+  height: 40px;
+  width: 66px;
+  border-width: 1px;
+  border-color: rgb(210, 210, 210);
+  background-color: rgb(248, 248, 248);
+  border-top-right-radius: 2px;
+  border-bottom-right-radius: 2px;
+  border-style: solid;
+}
+.search-icon {
+  margin-top: 4px;
+  width: 24px;
+  height: 24px;
+}
+.mic-button {
+  margin-left: 8px;
+  height: 40px;
+  width: 40px;
+  background-color: rgb(248, 248, 248);
+  border-radius: 20px;
+  border: none;
+}
+.mic-icon {
+  margin-top: 4px;
+  width: 24px;
+  height: 24px;
 }
 .right-section {
   display: flex;
   height: 100%;
+  margin-right: 20px;
   align-items: center;
-  justify-content: center;
-  width: 200px;
-  background-color: lightblue;
+  justify-content: space-between;
+  width: 180px;
+  flex-shrink: 0;
+}
+.icon-upload {
+  height: 24px;
+}
+.icon-apps {
+  height: 24px;
+}
+.icon-notification {
+  height: 24px;
+}
+.profile-picture {
+  height: 32px;
+  border-radius: 16px;
 }
