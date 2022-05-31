@@ -28,6 +28,7 @@
         <input class="search-box" placeholder="Search" />
         <button class="search-button">
           <img class="search-icon" src="icons/search.svg" alt="search" />
+          <div class="tooltip">Search</div>
         </button>
         <button class="mic-button">
           <img
@@ -35,17 +36,25 @@
             src="icons/voice-search-icon.svg"
             alt="voice search"
           />
+          <div class="tooltip">Voice Search</div>
         </button>
       </div>
       <div class="right-section">
-        <img class="icon-upload" src="icons/upload.svg" alt="upload" />
-        <img class="icon-apps" src="icons/youtube-apps.svg" alt="apps" />
+        <div class="upload-container">
+          <img class="icon-upload" src="icons/upload.svg" alt="upload" />
+          <div class="tooltip">Upload Video</div>
+        </div>
+        <div class="app-container">
+          <img class="icon-apps" src="icons/youtube-apps.svg" alt="apps" />
+          <div class="tooltip">Apps</div>
+        </div>
         <div class="notification">
           <img
             class="notification-icon"
             src="icons/notifications.svg"
             alt="notifications"
           />
+          <div class="tooltip">Notifications</div>
           <p class="notification-count">99+</p>
         </div>
 
@@ -56,7 +65,32 @@
         />
       </div>
     </div>
-    <div class="side-bar">side-bar</div>
+    <div class="sidebar">
+      <div class="sidebar-link">
+        <img src="icons/home.svg" alt="Home" />
+        <div>Home</div>
+      </div>
+      <div class="sidebar-link">
+        <img src="icons/explore.svg" alt="Explore" />
+        <div>Explore</div>
+      </div>
+      <div class="sidebar-link">
+        <img src="icons/subscriptions.svg" alt="Subscription" />
+        <div>Subscription</div>
+      </div>
+      <div class="sidebar-link">
+        <img src="icons/originals.svg" alt="Originals" />
+        <div>Originals</div>
+      </div>
+      <div class="sidebar-link">
+        <img src="icons/youtube-music.svg" alt="Youtube-Music" />
+        <div>YouTube Music</div>
+      </div>
+      <div class="sidebar-link">
+        <img src="icons/library.svg" alt="Library" />
+        <div>Library</div>
+      </div>
+    </div>
 
     <div class="video-preview-grid">
       <div class="video-preview">
