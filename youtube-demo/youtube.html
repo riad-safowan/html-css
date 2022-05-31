@@ -14,6 +14,7 @@
 
     <link rel="stylesheet" href="youtube.css" />
     <link rel="stylesheet" href="styles/header.css" />
+    <link rel="stylesheet" href="styles/sidebar.css" />
     <link rel="stylesheet" href="styles/video.css" />
     <title>YouTube</title>
   </head>
@@ -39,11 +40,15 @@
       <div class="right-section">
         <img class="icon-upload" src="icons/upload.svg" alt="upload" />
         <img class="icon-apps" src="icons/youtube-apps.svg" alt="apps" />
-        <img
-          class="icon-notification"
-          src="icons/notifications.svg"
-          alt="notifications"
-        />
+        <div class="notification">
+          <img
+            class="notification-icon"
+            src="icons/notifications.svg"
+            alt="notifications"
+          />
+          <p class="notification-count">99+</p>
+        </div>
+
         <img
           class="profile-picture"
           src="channel-pictures/my-channel.jpeg"
@@ -51,11 +56,13 @@
         />
       </div>
     </div>
+    <div class="side-bar">side-bar</div>
 
     <div class="video-preview-grid">
       <div class="video-preview">
-        <div>
+        <div class="thumbnail-container">
           <img class="thumbnails" src="thumbnails/thumbnail-1.webp" />
+          <p class="time">14:20</p>
         </div>
         <div class="video-info-grid">
           <div class="channel-pic">
@@ -74,8 +81,9 @@
         </div>
       </div>
       <div class="video-preview">
-        <div>
+        <div class="thumbnail-container">
           <img class="thumbnails" src="thumbnails/thumbnail-2.webp" />
+          <p class="time">8:22</p>
         </div>
         <div class="video-info-grid">
           <div class="channel-pic">
@@ -92,8 +100,9 @@
         </div>
       </div>
       <div class="video-preview">
-        <div>
+        <div class="thumbnail-container">
           <img class="thumbnails" src="thumbnails/thumbnail-3.webp" />
+          <p class="time">9:13</p>
         </div>
         <div class="video-info-grid">
           <div class="channel-pic">
@@ -112,8 +121,9 @@
         </div>
       </div>
       <div class="video-preview">
-        <div>
+        <div class="thumbnail-container">
           <img class="thumbnails" src="thumbnails/thumbnail-4.webp" />
+          <p class="time">22:09</p>
         </div>
         <div class="video-info-grid">
           <div class="channel-pic">
@@ -132,8 +142,9 @@
         </div>
       </div>
       <div class="video-preview">
-        <div>
+        <div class="thumbnail-container">
           <img class="thumbnails" src="thumbnails/thumbnail-5.webp" />
+          <p class="time">11:17</p>
         </div>
         <div class="video-info-grid">
           <div class="channel-pic">
@@ -152,8 +163,9 @@
         </div>
       </div>
       <div class="video-preview">
-        <div>
+        <div class="thumbnail-container">
           <img class="thumbnails" src="thumbnails/thumbnail-6.webp" />
+          <p class="time">14:20</p>
         </div>
         <div class="video-info-grid">
           <div class="channel-pic">
@@ -166,6 +178,67 @@
             <p class="video-title">Anything You Can Fit In The Circle</p>
             <p class="channel-name">MrBeast</p>
             <p class="video-stats">141M views &#183; 1 year ago</p>
+          </div>
+        </div>
+      </div>
+      <div class="video-preview">
+        <div class="thumbnail-container">
+          <img class="thumbnails" src="thumbnails/thumbnail-2.webp" />
+          <p class="time">14:20</p>
+        </div>
+        <div class="video-info-grid">
+          <div class="channel-pic">
+            <img
+              class="channel-picture"
+              src="channel-pictures/channel-2.jpeg"
+            />
+          </div>
+          <div class="video-info">
+            <p class="video-title">Try Not To Laugh Challenge #9</p>
+            <p class="channel-name">Markiplier</p>
+            <p class="video-stats">19M views &#183; 4 years ago</p>
+          </div>
+        </div>
+      </div>
+      <div class="video-preview">
+        <div class="thumbnail-container">
+          <img class="thumbnails" src="thumbnails/thumbnail-1.webp" />
+          <p class="time">14:20</p>
+        </div>
+        <div class="video-info-grid">
+          <div class="channel-pic">
+            <img
+              class="channel-picture"
+              src="channel-pictures/channel-1.jpeg"
+            />
+          </div>
+          <div class="video-info">
+            <p class="video-title">
+              Talking Tech and AI with Google CEO Sundar Pichai!
+            </p>
+            <p class="channel-name">Marques Brownlee</p>
+            <p class="video-stats">3.4M views &#183; 6 months ago</p>
+          </div>
+        </div>
+      </div>
+      <div class="video-preview">
+        <div class="thumbnail-container">
+          <img class="thumbnails" src="thumbnails/thumbnail-3.webp" />
+          <p class="time">14:20</p>
+        </div>
+        <div class="video-info-grid">
+          <div class="channel-pic">
+            <img
+              class="channel-picture"
+              src="channel-pictures/channel-3.jpeg"
+            />
+          </div>
+          <div class="video-info">
+            <p class="video-title">
+              Crazy Tik Toks Taken Moments Before DISASTER
+            </p>
+            <p class="channel-name">SSSniperWolf</p>
+            <p class="video-stats">12M views &#183; 1 year ago</p>
           </div>
         </div>
       </div>

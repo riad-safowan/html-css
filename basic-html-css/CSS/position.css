@@ -1,0 +1,62 @@
+.nav-bar {
+  background-color: black;
+  color: white;
+  text-align: center;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  margin: 0;
+  height: 100px;
+  z-index: 1;
+}
+.side-bar {
+  background-color: rgb(96, 31, 182);
+  color: white;
+  position: fixed;
+  top: 100px;
+  left: 0;
+  bottom: 0;
+  margin: 0;
+  padding-top: 300px;
+  width: 100px;
+}
+body{
+    margin-top: 110px;
+    margin-left: 110px;
+}
+.d1 {
+  position: relative;
+  background-color: lightblue;
+  height: 200px;
+  width: 200px;
+}
+.d2 {
+  background-color: lightpink;
+  height: 2000px;
+  width: 200px;
+}
+.abs{
+  position: absolute;
+  background-color: red;
+  color: white;
+  right: 200px;
+  top: 200px;
+}
+.close-d1{
+  position: absolute;
+  top: 0;
+  right: 0;
+  color: red;
+  z-index: 1;
+}
+.time{
+  position: absolute;
+  bottom: 10px;
+  right: 10px;
+  margin: 0px;
+  color: white;
+  background-color: black;
+  padding: 3px;
+  border-radius: 3px;
+}
